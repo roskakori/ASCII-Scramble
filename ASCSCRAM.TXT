@@ -1,0 +1,202 @@
+==========================================================
+
+ASCII-Scramble, Version 1.03 (26-Dec-94)
+
+==========================================================
+
+
+
+COPYRIGHT
+
+ASCII-Scramble is freeware. That means you don't have to pay
+anything if you install it on your harddisk and play it all
+the day.
+
+You run this program at your own risc. I'm not responsible
+for any damage it does to your hardware or software
+(Maybe it will start to format your harddisk, if you don't
+run it only in an OS/2-dos box ;-) )
+
+
+
+INTRODUCTION
+
+Do you like these graphics overloaded, sound-blasting, 20MB
+using, colorfull games that have been produced the recent
+years? Well, then this game is not for you.
+
+
+
+FEATURES
+
+* ASCSCRAM.EXE is not even 40k long!
+* uses 3 different color types, depending on the color of
+  your dos prompt (standard, invers, highlighted)
+* displays only standard ASCII characters (7 bit) on screen
+  (exept the "”" of Tommy-Saftw”rx at the title screen)
+* absolutely no dull sound support
+  (in fact: no sound support at all)
+* needs only about 10K of memory at run time
+* runs at usable speed even with XTs
+
+
+
+HARDWARE REQUIREMENTS
+
+None. Should also run with an abacus, if it owns an 80x86
+
+Actually, ASCII-Scramble was developed using an Olivetti M15
+(year of construction: 1986; hardware: 8088, CMOS version; 2
+floppy devices; 512K ram) and Turbo Pascal 5.5. I also know
+how it is to work with a 486-cpu, 16MB ram, 420MB hard disk
+and Turbo Pascal 7.0, and I must say: there's nearly no
+difference at all... (especiallay if your source code is just 
+about 3700 lines long)
+
+The current version works only with a 40x25 color display
+(video memory at $b800), so it won't run with a hercules
+monochrome adaptor. Version 1.1 will work with any display
+and any screen size.
+
+
+
+INSTALLATION
+
+Just copy all files of this distribution to your game
+directory. Then type "ASCSCRAM" (I really like filenames
+containing only 8 characters :-( )
+
+
+
+BACKGROUND STORY
+
+In 2156, an alien race attacked to human space empire and
+destroyed all human military forces within just a thew days.
+There is only one chance left: to attack the enemy's home
+planet. So you... Oh god, these stories are so dull.
+Let's stop it.
+
+
+
+GAME OBJECT
+
+Shoot at everything that obviously scores points!
+
+
+
+CONTROLS
+
+Use cursor keys to move your ship, space bar to fire
+missiles and bombs, enter to activate extra under extra
+cursor. "B" activates a smart bomb, if any available.
+Pressing "P" will pause game until "P" is pressed again. ESC
+will abort game.
+
+
+
+EXTRAS
+
+When you've shot a certain amount of enemies, an extra
+symbol ("$") will appear. Pick it up, and the extra cursors
+jumps to the next extra. possible extras are:
+
+    SPEED : increses ship speed
+    SHOOT : increses reload ratio of ship gun
+    BOMB  : adds a smart bomb
+            (your ship can carry up to nine smart bombs)
+    DOUBLE: increases power of your ship gun
+    WING  : adds two wings to your ship, which will also fire
+            (better shot)
+    SHIELD: makes ship immune to enemy & bullet collision
+            for a short time (ship blinks)
+
+After an crash, your speed and shoot level will not be
+reseted at all, but only decreased.
+
+
+
+ENEMIES:
+
+     T  : fuel storage; Shoot it to tank your ship; 1 shot
+          required
+     A  : rocket, moving upwards; 1 or 2 shots required
+
+     V  : rocket, moving downwards; 1 or 2 shots required
+   
+     X  : enemy bullet; indestructable
+
+    O=- : comet; indestructable
+
+     /[
+    <O= : ufo; 5 shots required
+     \[
+
+    At end of scene 4 and 5, special enemies will await you.
+
+    HINT: Always shoot at the highlighted characters of an
+          object!
+
+
+
+IF YOU LIKE ASCII-SCRAMBLE...
+
+...feel free to send an email or a postcard with a picture of
+   your home town to the author (address below).
+
+
+
+IF YOU DO NOT LIKE ASCII-SCRAMBLE...
+
+...just enter "DEL ASCSCRAM.*" and everything will be as
+   before.
+
+
+
+IF YOU LIKE WINDOWS OR EVEN MS-DOS...
+
+...then put a gun into your mouth and pull the trigger.
+
+
+
+AUTHOR:
+
+    Tommy-Saftw”rx is:
+
+    Thomas Aglassinger
+    Lissagasse 12/II/9
+    8020 GRAZ
+    AUSTRIA
+
+    email: agi@sbox.tu-graz.ac.at
+
+    NOTE: kill-bill-productions is a sub-label of 
+          Tommy-Saftw”rx, under which I release all 
+          ms-dos compatible stuff.
+          Who is Bill? Guess.. ;-)
+
+
+WHY IS THE AUTHOR SO ANGRY ABOUT MICROSOFT?
+
+Because he knows what an operationg system should be able to
+do in 1994. 
+So he owns an Amiga (which supports 32bit, preemtive 
+multitasking, an autocofig bus since 1985 and easy, but
+powerfull video options -> it always makes me smile seeing
+these pci-pentiums trying to display a 320x240 video with
+15fps under windows)
+
+
+
+FUTURE
+
+* for ASCII-Scramble: version 1.1 might support: extremely dull 
+  sound support, advanced display support, enemy bullets
+  targeting to your ship and more intelligent ufos which don't
+  fly into the lanscape any more.
+* for microsoft and intel: the future is dated to 1980
+* for Amiga: I'm frightened there is no future
+  (thanks to microsoft, intel, all users of their hard-
+  and software, and of course to commodore for their
+  degenerated advertising stuff :-( )
+* for me: the future is talingent 
+  (go on dreaming, silly guy...)
