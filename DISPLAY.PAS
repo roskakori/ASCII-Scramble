@@ -1,11 +1,5 @@
 (*
-** Display.PAS
-**
-** unit for ASCII-Scramble
-** contains display functions, game objects display codes
-**
-** updated: 14-Dec-94
-** created:  8-Sep-94
+** Display functions, game objects display codes
 *)
 unit Display;
 

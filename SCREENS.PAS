@@ -1,11 +1,5 @@
 (*
-** SCREEN.PAS
-**
-** unit for ASCII-Scramble
-** contains screen functions
-**
-** updated: 26-Dec-94
-** created: 28-Sep-94
+** Screen functions
 *)
 unit Screens;
 
@@ -59,11 +53,10 @@ var
 
     ClrScr;
 
-    WriteCtr( 1, 'kill-bill-productions present:' );
     WriteCtr( sy2-6, '^H*** ASCII-SCRAMBLE ***^S' );
-    WriteCtr( sy2-5, '                 v1.04' );
-    WriteCtr( sy2-2, '(w) by tommy-saftw”rx in 1994' );
-    WriteCtr( sy2-1, 'this is FREEWARE!' );
+    WriteCtr( sy2-5, '                  v1.1' );
+    WriteCtr( sy2-2, '(c) thomas aglassinger 1994, 2011' );
+    WriteCtr( sy2-1, 'distributed under bsd license' );
 
 
     WriteCtr( sy2+1, '^Hgame setup:^S' );

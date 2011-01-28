@@ -72,7 +72,8 @@ begin
 
   RestoreScreen;
   (*$IFDEF TEST*)
-  QuitInfo;
+  (* FIXME: Figure out what this was supposed to do. *)
+  (*QuitInfo;*)
   (*$ENDIF*)
 
 end.

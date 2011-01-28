@@ -1,11 +1,5 @@
 (*
-** HISCORE.PAS
-**
-** unit for ASCII-Scramble
-** contains high score functions
-**
-** updated: 26-Dec-94
-** created: 13-Dec-94
+** High score functions
 *)
 unit HiScore;
 
@@ -97,7 +91,6 @@ begin
       GotoXY( (sx-HSentryLen) div 2, HSy(j) );
       Write( name );
     end;
-
 end;
 
 (*
@@ -117,13 +110,9 @@ begin
           year  := y; month := m; day := d;
         end;
   Assign( HSfile, HSfname );           (* read hiscores *)
-  (*$IFDEF test*)
   (*$I-*)
-  (*$ENDIF*)
   Reset( HSfile );
-  (*$IFDEF test*)
   (*$I+*)
-  (*$ENDIF*)
   if IOResult <> 0 then begin
       WriteMessage('Creating hiscore table');
       WriteHiScores;
@@ -196,7 +185,6 @@ begin
     end;
 
   CheckHiScore := pos;
-
 
 end;
 
