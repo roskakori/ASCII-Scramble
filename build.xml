@@ -1,0 +1,27 @@
+<project name="ASCII-Scramble" default="dist" basedir=".">
+    <description>
+        Shot'em up for MS DOS text mode using only ASCII characters
+    </description>
+
+<property name="ascscram.zip" location="ASCSCRAM.ZIP"/>
+
+<target name="init">
+    <!-- Create the time stamp -->
+    <tstamp/>
+</target>
+
+<target name="compile" depends="init">
+  <!-- TODO: Run tpc -->
+</target>
+
+<target name="zip" depends="compile">
+  <zip destfile="${ascscram.zip}" basedir="." includes="ASCSCRAM.EXE, README.TXT, LICENSE.TXT" />
+</target>
+
+<target name="site" depends="zip">
+  <copy file="README.TXT" todir="site" />
+  <copy file="LICENSE.TXT" todir="site" />
+  <copy file="${ascscram.zip}" todir="site" />
+</target>
+
+</project>
