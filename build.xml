@@ -1,27 +1,40 @@
-<project name="ASCII-Scramble" default="dist" basedir=".">
+<project name="ASCII-Scramble" default="site" basedir=".">
     <description>
         Shot'em up for MS DOS text mode using only ASCII characters
     </description>
 
-<property name="ascscram.zip" location="ASCSCRAM.ZIP"/>
+  <property name="ascscram.zip" location="site/ASCSCRAM.ZIP"/>
+  <property name="publish.dir" location="../../Sites/roskakori.at/ascii"/>
 
-<target name="init">
+  <target name="init">
     <!-- Create the time stamp -->
     <tstamp/>
-</target>
+  </target>
 
-<target name="compile" depends="init">
-  <!-- TODO: Run tpc -->
-</target>
+  <target name="compile" depends="init">
+    <!-- TODO: Run tpc -->
+  </target>
 
-<target name="zip" depends="compile">
-  <zip destfile="${ascscram.zip}" basedir="." includes="ASCSCRAM.EXE, README.TXT, LICENSE.TXT" />
-</target>
+  <target name="zip" depends="compile">
+    <zip destfile="${ascscram.zip}" basedir="." includes="ASCSCRAM.EXE, README.TXT, LICENSE.TXT" />
+  </target>
 
-<target name="site" depends="zip">
-  <copy file="README.TXT" todir="site" />
-  <copy file="LICENSE.TXT" todir="site" />
-  <copy file="${ascscram.zip}" todir="site" />
-</target>
+  <target name="site" depends="zip">
+    <copy file="README.TXT" todir="site" />
+    <copy file="LICENSE.TXT" todir="site" />
+  </target>
+
+  <target name="publish" depends="site">
+    <mkdir dir="${publish.dir}" />
+    <copy todir="${publish.dir}">
+      <fileset dir="site" includes="*.TXT *.ZIP *.png *.html" />
+    </copy>
+  </target>
+
+  <target name="clean" depends="init">
+    <delete file="${ascscram.zip}" />
+    <delete file="site/LICENSE.TXT" />
+    <delete file="site/README.TXT" />
+  </target>
 
 </project>
