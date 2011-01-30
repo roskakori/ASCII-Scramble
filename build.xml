@@ -1,6 +1,6 @@
 <project name="ASCII-Scramble" default="site" basedir=".">
     <description>
-        Shot'em up for MS DOS text mode using only ASCII characters
+        Shoot'em up for MS DOS text mode using only ASCII characters
     </description>
 
   <property name="ascscram.zip" location="site/ASCSCRAM.ZIP"/>

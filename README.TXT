@@ -1,18 +1,8 @@
 ASCII-Scramble
 ==============
 
-ASCII-Scramble is a shot'em up for MS DOS text mode using only ASCII
+ASCII-Scramble is a shoot'em up for MS DOS text mode using only ASCII
 characters.
-
-
-COPYRIGHT
----------
-
-Copyright (c) 1994, Thomas Aglassinger. All rights reserved. Distributed
-under the BSD license.
-
-Visit <https://github.com/roskakori/ASCII-Scramble> to obtain the source
-code. Use Turbo Pascal 5.5 or later to compile.
 
 
 INTRODUCTION
@@ -129,6 +119,16 @@ O=- : comet; indestructible
 At end of scene 4 and 5, special enemies will await you.
 
 HINT: Always shoot at the highlighted characters of an object!
+
+
+COPYRIGHT
+---------
+
+Copyright (c) 1994, Thomas Aglassinger. All rights reserved. Distributed
+under the BSD license.
+
+Visit <https://github.com/roskakori/ASCII-Scramble> to obtain the source
+code. Use Turbo Pascal 5.5 or later to compile.
 
 
 VERSION HISTORY

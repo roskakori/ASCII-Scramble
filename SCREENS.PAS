@@ -55,7 +55,7 @@ var
 
     WriteCtr( sy2-6, '^H*** ASCII-SCRAMBLE ***^S' );
     WriteCtr( sy2-5, '                  v1.1' );
-    WriteCtr( sy2-2, '(c) thomas aglassinger 1994, 2011' );
+    WriteCtr( sy2-2, '(c) thomas aglassinger 1994-2011' );
     WriteCtr( sy2-1, 'distributed under bsd license' );
 
 
